@@ -1,0 +1,35 @@
+.box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card img{
+    width: 230px;
+    height: 300px;
+}
+.card{
+        box-shadow: 10px 15px 15px rgb(181, 179, 179);
+    border-radius: 16px;
+    width: 350px;
+    height: 500px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card button{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
